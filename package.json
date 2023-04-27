@@ -17,6 +17,7 @@
     "src/**/*.vue"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "serve": "vue-cli-service serve dev/serve.js",
     "build": "vue-cli-service build --target lib --name pdfvuer src/Pdfvuer.vue"
   },
